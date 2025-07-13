@@ -156,7 +156,6 @@ a {
 .nav__expand-link {
     color:var(--text-color);
     display: flex;
-    background-color: red;
     flex-direction: column;
     align-items: center;
     transition: color .4s;
@@ -169,4 +168,11 @@ a {
 .nav__expand-link span {
     font-size: var(--tiny-font-size);
     font-weight : var(--font-semi-bold);
+}
+.nav__expand-link:hover {
+    color:var(--white-color)
+}
+
+.show-list, .show-list li {
+    transform: translateY(0);
 }

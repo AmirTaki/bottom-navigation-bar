@@ -178,9 +178,14 @@ a {
 }
 
 .rotate-icon {
-    transform: rotate((135deg));
+    transform: rotate(135deg);
 }
 
 .active-link {
     color : var(--white-color)
+}
+@media screen and (min-width : 450px) {
+    .nav{
+        width: 350px
+    }
 }

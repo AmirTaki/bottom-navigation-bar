@@ -26,3 +26,10 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+
+
+@media screen and(min-width:1150px) {
+    :root{
+        --biggest-font-size: 3.5rem;
+    }
+}

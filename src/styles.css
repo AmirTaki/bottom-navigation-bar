@@ -189,3 +189,9 @@ a {
         width: 350px
     }
 }
+
+@media screen  and (min-width: 1150){
+    .container{
+        margin-inline : auto;
+    }
+}

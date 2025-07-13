@@ -66,3 +66,9 @@ a {
     height : 100vh;
     padding-block: 2.5rem;
 }
+
+.section h1 {
+    font-size: var(--biggest-font-size);
+    color: var(--black-color);
+    text-align: center;
+}

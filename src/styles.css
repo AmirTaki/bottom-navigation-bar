@@ -98,3 +98,17 @@ a {
     font-size: 1.5rem;
     transition: color .4s;
 }
+
+.nav__link:hover {
+    color:var(--white-color)
+}
+
+.nav__expand {
+    border: none;
+    outline: none;
+    width:40px;
+    height:40px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    cursor: pointer;
+}

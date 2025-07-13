@@ -142,3 +142,7 @@ a {
     transform: translateX(-3rem);
     transition : transform .4s
 }
+
+.nav__expand-list li:nth-child(1) {
+    transition-delay: .2s;
+}

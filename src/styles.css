@@ -119,3 +119,22 @@ a {
     font-size: 1.5rem;
     transition: transform .4s
 }
+
+.nav__expand-list {
+    position: absolute;
+    top:-4.5rem;
+    left:0;
+    right: 0;
+    background-color: var(--black-color);
+    box-shadow: 0 2px 16px hsla(228, 95%, 4%, .1);
+    width: max-content;
+    margin-inline: auto;
+    padding: .5rem 1.5rem;
+    border-radius : 4rem;
+    display: flex;;
+    column-gap: 2rem;
+    z-index: -1;
+    overflow: hidden;
+    transform: translateY(5rem) scale(.1);
+    transition : transform .5s cubic-bezier(.5, 1.8, .4, .8);
+}

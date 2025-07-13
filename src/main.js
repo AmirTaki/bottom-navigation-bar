@@ -6,3 +6,9 @@ navExpand.addEventListener('click', (e)=> {
     navExpandList.classList.toggle('show-list')
     navExpandIcon.classList.toString('rotate-icon')
 })
+
+
+const sections = document.querySelectorAll('section[id]')
+
+
+window.addEventListener('scroll', scrollActive)

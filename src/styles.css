@@ -112,3 +112,10 @@ a {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.nav__expand-icon {
+    display: inline-block;
+    color:var(--white-color);
+    font-size: 1.5rem;
+    transition: transform .4s
+}
